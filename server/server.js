@@ -9,7 +9,7 @@ const app = express();
 
 //Connect Databse
 connectingDB();
-
+console.log("hre");
 //Init Middleware
 app.use(express.json({ extended: false })); //Get datas from req.body
 
